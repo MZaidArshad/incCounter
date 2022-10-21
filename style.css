@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #300066;
+  font-family: monospace;
+}
+
+.container {
+  display: flex;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.counter-container {
+  color: rgb(231, 231, 231);
+  margin: 0 50px;
+  width: auto;
+}
+
+.counter-container .counter {
+  color: rgb(243, 198, 0);
+  font-size: 60px;
+  margin-top: 8px;
+}
+
+span {
+  white-space: nowrap;
+  font-size: 16px;
+}
